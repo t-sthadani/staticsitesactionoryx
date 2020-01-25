@@ -1,5 +1,5 @@
 #!/bin/sh -l
-if [ "$INPUT_ACTION" == "close" ]; then
+if [ "$INPUT_ACTION" = "close" ]; then
      dotnet StaticSitesClient.dll $INPUT_ACTION
      exit 0
  fi
