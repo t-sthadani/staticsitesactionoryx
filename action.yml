@@ -7,7 +7,7 @@ inputs:
   app_location:
     description: 'Directory location of the application source code'
     required: true
-  azure_static_web_apps_api_token:
+  azure_pages_api_token:
     description: 'Required token'
     required: true
   api_build_command:
