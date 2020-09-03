@@ -1,4 +1,4 @@
-FROM amsolo/amsoloclient:firstbuild
+FROM joslinmicrosoft/basic-deploy-oryx:hack2020
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
