@@ -34,9 +34,6 @@ inputs:
   stagingEnvironmentNameOverride:
     description: "Name of environment to publish assets to"
     required: false
-  productionbranch:
-    description: "Name of branch for live environment"
-    required: true
 outputs:
   static_web_app_url:
     description: "Url of the application"
